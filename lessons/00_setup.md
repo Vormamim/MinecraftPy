@@ -60,7 +60,7 @@ The **Agent** is your programmable helper inside Minecraft. It is a small robot 
 2. Look around in your Minecraft world — you should see the Agent appear and move.
 3. If the Agent is not visible, walk around your spawn point; it usually appears nearby.
 
-> 💡 **Tip:** If the Agent is stuck inside a block, you can teleport it to you using the chat command `/agent teleport`.
+> 💡 **Tip:** If the Agent is stuck inside a block, you can teleport it to you using the chat command for teleport '/teleport @c @s' which means teleport the agent (c) to myself (s) and your robot will show up if you look around. It's easy to loose your Agent sometimes.
 
 ---
 

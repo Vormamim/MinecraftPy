@@ -27,9 +27,9 @@ A flat world gives you a blank, level surface to build on — perfect for coding
 1. On the home screen, click **Play**.
 2. Click **Create New World**.
 3. Select the world type from **Advanced**
-4. Under **World Type**, select **Flat**
-5. Give your world a name (e.g. *My Python World*).
-6. Click **Create** to enter the world.
+5. Under **World Type**, select **Flat**
+6. Give your world a name (e.g. *My Python World*).
+7. Click **Play** to enter the world.
 
 > 💡 **Tip:** A flat world removes hills and obstacles so your agent can move freely without getting stuck.
 
@@ -42,11 +42,15 @@ Once you are inside your world:
 
 ### Step 4 — Select MakeCode → Python
 
-1. In the Code Builder panel, click **MakeCode**.
-2. A new editor will open. At the top, you will see tabs for **Blocks** and **Python**.
-3. Click the **Python** tab to switch to text-based Python coding.
+1. In the Code Builder panel, click **New Project**.
+2. Give your Code Project a name **helloMyWord**
+3. From the drop down menu - select **Python Only**
+4. Press **Create**
+5. The first time, you must take the **Welcome! Editor Tour**
+6. A new editor will open. At the top, you will see tabs for **Blocks** and **Python**.
+7. Click the **Python** tab to switch to text-based Python coding.
 
-> 💡 **Tip:** If you accidentally switch to Blocks view, just click the Python tab again to come back.
+> 💡 **Tip:** If you accidentally switch to Blocks view, just click the Python drop down to change it. **We are not interested in using block code** for developing Python code.
 
 ### Step 5 — Find and Use the Agent
 

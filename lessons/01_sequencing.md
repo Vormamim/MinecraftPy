@@ -100,7 +100,8 @@ Write your code, run it, and check that the path looks correct.
 
 ---
 
-## Bloom's Taxonomy Check
+## Questions to answer
+Create a new Word Document called **firstName_Surname_MinecraftPython** and save it to your ONE DRIVE or GOOGLE DRIVE
 
 Work through these questions to check your understanding. Write your answers in your notebook or discuss them with a partner.
 

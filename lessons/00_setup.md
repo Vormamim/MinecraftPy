@@ -26,9 +26,10 @@ A flat world gives you a blank, level surface to build on — perfect for coding
 
 1. On the home screen, click **Play**.
 2. Click **Create New World**.
-3. Under **World Type**, select **Flat**.
-4. Give your world a name (e.g. *My Python World*).
-5. Click **Create** to enter the world.
+3. Select the world type from **Advanced**
+4. Under **World Type**, select **Flat**
+5. Give your world a name (e.g. *My Python World*).
+6. Click **Create** to enter the world.
 
 > 💡 **Tip:** A flat world removes hills and obstacles so your agent can move freely without getting stuck.
 

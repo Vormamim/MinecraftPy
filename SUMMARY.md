@@ -1,0 +1,15 @@
+# Table of contents
+
+* [Minecraft Python](README.md)
+* [lessons](lessons/README.md)
+  * [Getting Started with Minecraft Education & Code Builder](lessons/00_setup.md)
+  * [Lesson 1 — Sequencing: Your First Commands](lessons/01_sequencing.md)
+  * [Lesson 2 — Placing Blocks: Changing the World](lessons/02_placing_blocks.md)
+  * [Lesson 3 — Loops: Doing Things Repeatedly](lessons/03_loops.md)
+  * [Lesson 4 — Nested Loops: Patterns and Shapes](lessons/04_nested_loops.md)
+  * [Lesson 5 — Variables: Storing and Reusing Values](lessons/05_variables.md)
+  * [Lesson 6 — Vertical Building: Working in 3D](lessons/06_vertical_building.md)
+  * [Lesson 7 — Conditionals: Making Decisions](lessons/07_conditionals.md)
+  * [Lesson 8 — Debugging: Finding and Fixing Errors](lessons/08_debugging.md)
+  * [Lesson 9 — Guided Project: Building a House Base](lessons/09_guided_project.md)
+  * [Lesson 10 — Final Project: Build Your World](lessons/10_final_project.md)

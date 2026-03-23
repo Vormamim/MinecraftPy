@@ -1,23 +1,29 @@
-# Minecraft Education Python Course (10 Hours)
-**Beginner Course – In-Game Python Only (MakeCode Python)**
-
+---
+icon: pickaxe
 ---
 
-## Course Overview
+# Minecraft Python
+
+**Beginner Course – In-Game Python Only (MakeCode Python)**
+
+***
+
+### Course Overview
 
 This course introduces students to **basic Python concepts** using the **Minecraft Education Code Builder (MakeCode Python)** environment.
 
 Students will learn:
-- Sequencing
-- Loops
-- Variables
-- Conditionals
-- Debugging
-- Basic computational thinking
 
----
+* Sequencing
+* Loops
+* Variables
+* Conditionals
+* Debugging
+* Basic computational thinking
 
-## Setup (Complete Before Lesson 1)
+***
+
+### Setup (Complete Before Lesson 1)
 
 1. Open **Minecraft Education**
 2. Create a **Flat World**
@@ -25,45 +31,52 @@ Students will learn:
 4. Select **MakeCode → Python**
 5. Ensure the **Agent** is available
 
----
+***
 
-## Student Rule
+### Student Rule
 
 Run code → Observe → Explain what happened
 
----
+***
 
-# Hour 1 — Sequencing (First Commands)
+## Hour 1 — Sequencing (First Commands)
 
-## Goal
+### Goal
+
 Understand that code runs in order.
 
-## Code
+### Code
+
 ```python
 agent.move(FORWARD, 3)
 agent.turn(LEFT)
 agent.move(FORWARD, 3)
 ```
 
-## Tasks
-- Run the code
-- Change `3` to `5`
-- Predict the outcome before running
+### Tasks
 
-## Challenge
+* Run the code
+* Change `3` to `5`
+* Predict the outcome before running
+
+### Challenge
+
 Create an L-shaped path
 
-## Key Concept
+### Key Concept
+
 Code executes line by line
 
----
+***
 
-# Hour 2 — Placing Blocks
+## Hour 2 — Placing Blocks
 
-## Goal
+### Goal
+
 Interact with the world using code
 
-## Code
+### Code
+
 ```python
 agent.set_item(STONE, 64, 1)
 agent.place(DOWN)
@@ -71,41 +84,49 @@ agent.move(FORWARD, 1)
 agent.place(DOWN)
 ```
 
-## Tasks
-- Build a path of 5 blocks
-- Try different materials (GRASS, WOOD, GLASS)
+### Tasks
 
-## Key Concept
+* Build a path of 5 blocks
+* Try different materials (GRASS, WOOD, GLASS)
+
+### Key Concept
+
 Code creates visible changes in the world
 
----
+***
 
-# Hour 3 — Loops (Repetition)
+## Hour 3 — Loops (Repetition)
 
-## Goal
+### Goal
+
 Use loops to reduce repeated code
 
-## Code
+### Code
+
 ```python
 for i in range(5):
     agent.place(DOWN)
     agent.move(FORWARD, 1)
 ```
 
-## Tasks
-- Build a 10-block path using a loop
+### Tasks
 
-## Key Concept
+* Build a 10-block path using a loop
+
+### Key Concept
+
 Loops save time and reduce repetition
 
----
+***
 
-# Hour 4 — Squares (Nested Loops)
+## Hour 4 — Squares (Nested Loops)
 
-## Goal
+### Goal
+
 Combine loops and movement
 
-## Code
+### Code
+
 ```python
 for i in range(4):
     for j in range(5):
@@ -114,21 +135,25 @@ for i in range(4):
     agent.turn(LEFT)
 ```
 
-## Tasks
-- Build a square
-- Change the size (5 → 8)
+### Tasks
 
-## Key Concept
+* Build a square
+* Change the size (5 → 8)
+
+### Key Concept
+
 Nested loops create patterns
 
----
+***
 
-# Hour 5 — Variables
+## Hour 5 — Variables
 
-## Goal
+### Goal
+
 Control behaviour using variables
 
-## Code
+### Code
+
 ```python
 size = 6
 
@@ -139,20 +164,24 @@ for i in range(4):
     agent.turn(LEFT)
 ```
 
-## Tasks
-- Change `size` to 3, 10, 15
+### Tasks
 
-## Key Concept
+* Change `size` to 3, 10, 15
+
+### Key Concept
+
 Variables make code flexible
 
----
+***
 
-# Hour 6 — Vertical Building
+## Hour 6 — Vertical Building
 
-## Goal
+### Goal
+
 Work in 3D space
 
-## Code
+### Code
+
 ```python
 height = 5
 
@@ -161,21 +190,25 @@ for i in range(height):
     agent.move(UP, 1)
 ```
 
-## Tasks
-- Build a tower
-- Try different heights
+### Tasks
 
-## Key Concept
+* Build a tower
+* Try different heights
+
+### Key Concept
+
 Code can control 3D structures
 
----
+***
 
-# Hour 7 — Conditionals (IF)
+## Hour 7 — Conditionals (IF)
 
-## Goal
+### Goal
+
 Introduce decision-making
 
-## Code
+### Code
+
 ```python
 size = 6
 
@@ -189,46 +222,55 @@ for i in range(size):
     agent.move(FORWARD, 1)
 ```
 
-## Tasks
-- Change `size`
-- Observe changes in block type
+### Tasks
 
-## Key Concept
+* Change `size`
+* Observe changes in block type
+
+### Key Concept
+
 Programs can make decisions
 
----
+***
 
-# Hour 8 — Debugging
+## Hour 8 — Debugging
 
-## Goal
+### Goal
+
 Identify and fix errors
 
-## Broken Code
+### Broken Code
+
 ```python
 for i in range(5)
     agent.move(FORWARD, 1)
 ```
 
-## Tasks
-- Fix syntax errors
-- Explain what was wrong
+### Tasks
 
-## Common Errors
-- Missing brackets
-- Incorrect indentation
-- Misspelled variables
+* Fix syntax errors
+* Explain what was wrong
 
-## Key Concept
+### Common Errors
+
+* Missing brackets
+* Incorrect indentation
+* Misspelled variables
+
+### Key Concept
+
 Debugging is part of programming
 
----
+***
 
-# Hour 9 — Guided Project (House Base)
+## Hour 9 — Guided Project (House Base)
 
-## Goal
+### Goal
+
 Combine all concepts
 
-## Code
+### Code
+
 ```python
 size = 6
 
@@ -239,37 +281,43 @@ for i in range(4):
     agent.turn(LEFT)
 ```
 
-## Tasks
-- Build a square base
-- Modify size and materials
-- Add walls using vertical loops
+### Tasks
 
----
+* Build a square base
+* Modify size and materials
+* Add walls using vertical loops
 
-# Hour 10 — Final Project
+***
 
-## Choose ONE
+## Hour 10 — Final Project
 
-### Option A
+### Choose ONE
+
+#### Option A
+
 Path Builder
 
-### Option B
+#### Option B
+
 Square Garden
 
-### Option C
+#### Option C
+
 Tower Builder
 
----
+***
 
-## Requirements
+### Requirements
+
 Your project must include:
-- A variable
-- A loop
-- An IF statement
 
----
+* A variable
+* A loop
+* An IF statement
 
-## Reflection Questions
+***
+
+### Reflection Questions
 
 1. What does your code do?
 2. What does your variable control?
@@ -277,18 +325,19 @@ Your project must include:
 4. What decision does your IF statement make?
 5. What bug did you fix?
 
----
+***
 
-## Teacher Notes
+### Teacher Notes
 
-- Keep lessons practical and visible
-- Focus on prediction, testing, and explanation
+* Keep lessons practical and visible
+* Focus on prediction, testing, and explanation
 
----
+***
 
-## Course Outcome
+### Course Outcome
 
 By the end of this course, students will:
-- Understand basic Python structure
-- Apply logic to control a system
-- Demonstrate computational thinking in a visual environment
+
+* Understand basic Python structure
+* Apply logic to control a system
+* Demonstrate computational thinking in a visual environment

@@ -7,9 +7,9 @@ Welcome! Before you write your first line of Python, you need to get your worksp
 ## What You Will Need
 
 - **Minecraft Education** installed on your device
-- A school or personal Microsoft account to sign in
+- A school email address to sign in
+- A blank Word Doc called **firstName_Surname_MinecraftPython** (you'll use this later)
 - A flat world (you will create this below)
-
 ---
 
 ## Step-by-Step Setup

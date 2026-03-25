@@ -1,2 +1,6 @@
-# lessons
+---
+icon: sword
+---
+
+# An epic Minecraft mission
 

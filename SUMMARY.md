@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Minecraft Python](README.md)
-* [lessons](lessons/README.md)
+* [An epic Minecraft mission](lessons/README.md)
   * [Getting Started with Minecraft Education & Code Builder](lessons/00_setup.md)
   * [Lesson 1 — Sequencing: Your First Commands](lessons/01_sequencing.md)
   * [Lesson 2 — Placing Blocks: Changing the World](lessons/02_placing_blocks.md)

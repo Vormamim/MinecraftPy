@@ -1,18 +1,18 @@
 # Strings, Numbers, and Messages
 
----
+***
 
 ## Learning objectives
 
 By the end of this lesson you will be able to:
 
-- explain the difference between strings and numbers
-- use `str()` to join text with a number
-- use `player.say()` to show messages in Minecraft Education
-- use a variable to control a build
-- use a short pause to compare two player positions
+* explain the difference between strings and numbers
+* use `str()` to join text with a number
+* use `player.say()` to show messages in Minecraft Education
+* use a variable to control a build
+* use a short pause to compare two player positions
 
----
+***
 
 ## Theory: adapting chat and input for Minecraft Education
 
@@ -20,14 +20,14 @@ The original website uses `mc.postToChat()` and `input()` in regular Python.
 
 Minecraft Education is different:
 
-- there is no normal terminal input box for `input()`
-- classroom scripts usually work better with **variables**, **chat commands**, and visible in-world actions
+* there is no normal terminal input box for `input()`
+* classroom scripts usually work better with **variables**, **chat commands**, and visible in-world actions
 
 So in this remix, students still practise **strings**, **numbers**, and **conversion**, but in a way that suits Code Builder.
 
-![Data types poster](images/datatypes.jpg)
+![Data types poster](../.gitbook/assets/datatypes.jpg)
 
----
+***
 
 ## Code example 1: strings and numbers together
 
@@ -40,7 +40,7 @@ player.say(builder_name + " is building a tower of " + str(tower_height) + " blo
 
 This works because `tower_height` is converted from a number to text using `str()`.
 
----
+***
 
 ## Code example 2: use a number in a build
 
@@ -54,7 +54,7 @@ for level in range(tower_height):
 
 Change the number and the structure changes automatically.
 
----
+***
 
 ## Code example 3: measure movement after a pause
 
@@ -73,7 +73,7 @@ player.say("Moved x=" + str(x_distance) + " y=" + str(y_distance) + " z=" + str(
 
 This remakes the original website's distance-after-sleep activity.
 
----
+***
 
 ## Try it
 
@@ -82,7 +82,7 @@ This remakes the original website's distance-after-sleep activity.
 3. Change the tower height.
 4. Try the movement check and walk to a new location before the pause ends.
 
----
+***
 
 ## Modify it
 
@@ -92,30 +92,30 @@ Try these edits:
 2. Change `GOLD_BLOCK` to `GLASS`.
 3. Add a second message that says whether the tower is short or tall.
 
----
+***
 
 ## Challenge
 
 Create a program that:
 
-- stores your name in a string variable
-- stores a build size in a number variable
-- says a message using both values
-- builds a pillar using the number variable
+* stores your name in a string variable
+* stores a build size in a number variable
+* says a message using both values
+* builds a pillar using the number variable
 
----
+***
 
 ## Source mission remake
 
 This lesson remakes the website's ideas about:
 
-- posting to chat
-- joining strings together
-- converting strings and numbers
-- waiting with `sleep`
-- measuring how far a player moved
+* posting to chat
+* joining strings together
+* converting strings and numbers
+* waiting with `sleep`
+* measuring how far a player moved
 
----
+***
 
 ## What's next
 

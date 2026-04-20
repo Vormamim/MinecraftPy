@@ -1,17 +1,17 @@
 # Conditionals and Pattern Building
 
----
+***
 
 ## Learning objectives
 
 By the end of this lesson you will be able to:
 
-- use `if`, `elif`, and `else`
-- explain how Boolean conditions control a program
-- use a condition to choose a building material
-- use a condition inside a loop to create a pattern
+* use `if`, `elif`, and `else`
+* explain how Boolean conditions control a program
+* use a condition to choose a building material
+* use a condition inside a loop to create a pattern
 
----
+***
 
 ## Theory: making decisions in code
 
@@ -19,13 +19,13 @@ The original website uses conditionals to check whether a player is in water, in
 
 In Minecraft Education, the most beginner-friendly version of that idea is to:
 
-- check a simple world condition
-- choose materials based on variable values
-- create visible patterns with `if` statements
+* check a simple world condition
+* choose materials based on variable values
+* create visible patterns with `if` statements
 
-![Comparators poster](images/comparators.jpg)
+![Comparators poster](../.gitbook/assets/comparators.jpg)
 
----
+***
 
 ## Code example 1: choose a material with `if`
 
@@ -42,7 +42,7 @@ else:
 
 This stores a different block type depending on the size.
 
----
+***
 
 ## Code example 2: use the material in a build
 
@@ -63,7 +63,7 @@ for row in range(wall_size):
         blocks.place(wall_block, positions.add(origin, pos(column, row, 2)))
 ```
 
----
+***
 
 ## Code example 3: add a diagonal pattern
 
@@ -78,7 +78,7 @@ for row in range(6):
             blocks.place(STONE, positions.add(origin, pos(column, row, 5)))
 ```
 
----
+***
 
 ## Code example 4: check the block under the player
 
@@ -93,7 +93,7 @@ else:
 
 This is the Minecraft Education version of the website's "what block am I on?" idea.
 
----
+***
 
 ## Try it
 
@@ -102,7 +102,7 @@ This is the Minecraft Education version of the website's "what block am I on?" i
 3. Build the diagonal pattern wall.
 4. Stand on a grass block and test the block-check code.
 
----
+***
 
 ## Modify it
 
@@ -112,31 +112,31 @@ Try these changes:
 2. Use `BRICKS` for medium size and `GLASS` for large size.
 3. Add another condition for a second stripe where `row + column == 5`.
 
----
+***
 
 ## Challenge
 
 Build a 7×7 patterned wall where:
 
-- the border is `GOLD_BLOCK`
-- the diagonal is `DIAMOND_BLOCK`
-- all other blocks are `STONE`
+* the border is `GOLD_BLOCK`
+* the diagonal is `DIAMOND_BLOCK`
+* all other blocks are `STONE`
 
 You will need more than one condition.
 
----
+***
 
 ## Source mission remake
 
 This lesson remakes the website's:
 
-- comparator and Boolean examples
-- `if/elif/else` examples
-- logical operator ideas
-- block-checking activity
-- patterned wall extension
+* comparator and Boolean examples
+* `if/elif/else` examples
+* logical operator ideas
+* block-checking activity
+* patterned wall extension
 
----
+***
 
 ## What's next
 

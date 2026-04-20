@@ -1,17 +1,17 @@
 # Loops, Walls, and Pyramids
 
----
+***
 
 ## Learning objectives
 
 By the end of this lesson you will be able to:
 
-- use a `for` loop to repeat building actions
-- use nested loops to create a wall
-- explain how a loop controls height, width, and depth
-- build a simple pyramid with changing layer sizes
+* use a `for` loop to repeat building actions
+* use nested loops to create a wall
+* explain how a loop controls height, width, and depth
+* build a simple pyramid with changing layer sizes
 
----
+***
 
 ## Theory: repeating builds efficiently
 
@@ -19,9 +19,9 @@ The original website uses loops to stack blocks, build walls, create cubes, and 
 
 That same idea works perfectly in Minecraft Education. A loop lets you write a build rule once and repeat it many times.
 
-![For loop reminder](images/forloop.jpg)
+![For loop reminder](../.gitbook/assets/forloop.jpg)
 
----
+***
 
 ## Code example 1: stack a pillar
 
@@ -34,7 +34,7 @@ for height in range(5):
 
 This builds a 5-block pillar one block in front of the player.
 
----
+***
 
 ## Code example 2: build a wall with nested loops
 
@@ -46,10 +46,9 @@ for height in range(5):
         blocks.place(STONE, positions.add(origin, pos(width, height, 3)))
 ```
 
-The outer loop controls the rows.
-The inner loop controls the blocks across each row.
+The outer loop controls the rows. The inner loop controls the blocks across each row.
 
----
+***
 
 ## Add a pattern with a conditional
 
@@ -66,7 +65,7 @@ for height in range(5):
 
 This creates a diagonal stripe across the wall.
 
----
+***
 
 ## Pyramid remake
 
@@ -86,9 +85,9 @@ for level in range(levels):
     )
 ```
 
-![Pyramid example](images/pyramid.jpg)
+![Pyramid example](../.gitbook/assets/pyramid.jpg)
 
----
+***
 
 ## Try it
 
@@ -97,7 +96,7 @@ for level in range(levels):
 3. Add the diagonal pattern.
 4. Build the pyramid.
 
----
+***
 
 ## Modify it
 
@@ -108,30 +107,30 @@ Try these changes:
 3. Change the pyramid material to `GOLD_BLOCK` or `BRICKS`.
 4. Make the pyramid taller by changing `levels`.
 
----
+***
 
 ## Challenge
 
 Create a mini build zone with all three structures:
 
-- one pillar
-- one patterned wall
-- one small pyramid
+* one pillar
+* one patterned wall
+* one small pyramid
 
 Place them so they do not overlap.
 
----
+***
 
 ## Source mission remake
 
 This lesson remakes the website's:
 
-- stack 5 blocks task
-- double-loop wall task
-- condition wall pattern task
-- cube and pyramid extension tasks
+* stack 5 blocks task
+* double-loop wall task
+* condition wall pattern task
+* cube and pyramid extension tasks
 
----
+***
 
 ## What's next
 

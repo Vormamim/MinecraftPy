@@ -1,6 +1,6 @@
 # Setup for the Website Remix
 
----
+***
 
 ## Why this lesson set is different
 
@@ -8,27 +8,27 @@ The original website teaches Python in Minecraft by connecting normal Python to 
 
 In this remix you will use:
 
-- **Minecraft Education**
-- **Code Builder**
-- **MakeCode Python**
-- the built-in **Agent**, **player**, **blocks**, and **positions** tools
+* **Minecraft Education**
+* **Code Builder**
+* **MakeCode Python**
+* the built-in **Agent**, **player**, **blocks**, and **positions** tools
 
 That means you can learn the same core programming ideas **without external libraries or mods**.
 
-![Programming with Minecraft Python](images/ProgrammingWithMineCraftPython.png)
+![Programming with Minecraft Python](../.gitbook/assets/ProgrammingWithMineCraftPython.png)
 
----
+***
 
 ## Before you begin
 
 You need:
 
-- Minecraft Education installed
-- a flat practice world
-- Code Builder working in **Python Only** mode
-- coordinates switched on in your world settings if possible
+* Minecraft Education installed
+* a flat practice world
+* Code Builder working in **Python Only** mode
+* coordinates switched on in your world settings if possible
 
----
+***
 
 ## Quick setup steps
 
@@ -40,7 +40,7 @@ You need:
 6. Name your project something like `website_remix`.
 7. Make sure your **Agent** appears when you run code.
 
----
+***
 
 ## First test program
 
@@ -55,19 +55,19 @@ agent.move(FORWARD, 2)
 
 If the Agent moves in an L-shape, your setup is ready.
 
----
+***
 
 ## How this remix matches the source website
 
-| Original website idea | Minecraft Education remix |
-|---|---|
-| Connect Python to a server | Open Code Builder inside Minecraft Education |
-| `mc.player.getPos()` | Use in-game coordinates and `player.position()` |
-| `mc.setBlock()` | Use `blocks.place()` and `blocks.fill()` |
-| `mc.postToChat()` | Use `player.say()` or in-world actions |
-| Plugin-based gameplay | Built-in classroom-safe tools only |
+| Original website idea      | Minecraft Education remix                       |
+| -------------------------- | ----------------------------------------------- |
+| Connect Python to a server | Open Code Builder inside Minecraft Education    |
+| `mc.player.getPos()`       | Use in-game coordinates and `player.position()` |
+| `mc.setBlock()`            | Use `blocks.place()` and `blocks.fill()`        |
+| `mc.postToChat()`          | Use `player.say()` or in-world actions          |
+| Plugin-based gameplay      | Built-in classroom-safe tools only              |
 
----
+***
 
 ## Student rule
 
@@ -79,13 +79,13 @@ Every activity in this track uses the same rule:
 2. Watch what happens in the world.
 3. Explain what the program did and why.
 
----
+***
 
 ## Challenge check
 
 Change the test program so the Agent makes a **square corner** that is 4 blocks by 3 blocks instead of 2 by 2.
 
----
+***
 
 ## What's next
 

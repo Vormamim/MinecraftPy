@@ -1,17 +1,17 @@
 # Trail Art Remix
 
----
+***
 
 ## Learning objectives
 
 By the end of this lesson you will be able to:
 
-- use a loop to repeat an effect over time
-- build art based on player movement
-- use a list of materials to alternate colours
-- explain how a timed loop can sample the player's position
+* use a loop to repeat an effect over time
+* build art based on player movement
+* use a list of materials to alternate colours
+* explain how a timed loop can sample the player's position
 
----
+***
 
 ## Theory: remixing the flower trail idea
 
@@ -21,13 +21,13 @@ That sample depends on the older `mcpi` API and flower metadata values. In Minec
 
 The result still teaches:
 
-- repetition
-- position sampling
-- visible feedback in the world
+* repetition
+* position sampling
+* visible feedback in the world
 
-![Original drop flower sample](images/dropflowers.png)
+![Original drop flower sample](../.gitbook/assets/dropflowers.png)
 
----
+***
 
 ## Code example
 
@@ -42,12 +42,12 @@ for step in range(25):
 
 ### What this code does
 
-- watches the player's position 25 times
-- places a coloured block under the player
-- cycles through the list of colours
-- pauses briefly between each placement so the trail follows movement
+* watches the player's position 25 times
+* places a coloured block under the player
+* cycles through the list of colours
+* pauses briefly between each placement so the trail follows movement
 
----
+***
 
 ## Try it
 
@@ -55,7 +55,7 @@ for step in range(25):
 2. Start moving as soon as you click **Run**.
 3. Watch the coloured trail appear under you.
 
----
+***
 
 ## Modify it
 
@@ -65,19 +65,19 @@ Try these changes:
 2. Change the pause from `300` to `150` for a denser trail.
 3. Replace one colour in the list with `WHITE_WOOL` or `BLACK_WOOL`.
 
----
+***
 
 ## Challenge
 
 Create a trail that uses exactly three colours and spells out a path around a build area. Try to make the colour order repeat in a predictable pattern.
 
----
+***
 
 ## Source mission remake
 
 This lesson remakes the website's `dropflower.py` and `dropflower_withsize.py` samples by replacing the old plugin-based flower metadata approach with a MakeCode Python trail effect.
 
----
+***
 
 ## What's next
 

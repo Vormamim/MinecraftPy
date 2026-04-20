@@ -1,17 +1,17 @@
 # Rainbow Build Challenge
 
----
+***
 
 ## Learning objectives
 
 By the end of this lesson you will be able to:
 
-- use lists to store build data
-- combine loops with a height pattern
-- build a multi-colour arch in Minecraft Education
-- explain how data can control a shape
+* use lists to store build data
+* combine loops with a height pattern
+* build a multi-colour arch in Minecraft Education
+* explain how data can control a shape
 
----
+***
 
 ## Theory: remaking the rainbow sample
 
@@ -19,15 +19,15 @@ The original website includes a rainbow script that uses trigonometry and colour
 
 This Minecraft Education version keeps the same visual idea but uses:
 
-- a list of wool colours
-- a list of arch heights
-- nested loops with `blocks.place()`
+* a list of wool colours
+* a list of arch heights
+* nested loops with `blocks.place()`
 
 This makes the activity more readable for beginners while still producing a strong result.
 
-![Original rainbow sample](images/rainbow.png)
+![Original rainbow sample](../.gitbook/assets/rainbow.png)
 
----
+***
 
 ## Code example
 
@@ -47,12 +47,12 @@ for x in range(len(heights)):
 
 ### What this code does
 
-- `heights` controls the shape of the arch
-- `colors` controls the rainbow stripes
-- the outer loop moves across the rainbow
-- the inner loop stacks the colours upward
+* `heights` controls the shape of the arch
+* `colors` controls the rainbow stripes
+* the outer loop moves across the rainbow
+* the inner loop stacks the colours upward
 
----
+***
 
 ## Try it
 
@@ -60,7 +60,7 @@ for x in range(len(heights)):
 2. Step back and inspect the arch.
 3. Predict what will happen if you change the numbers in `heights`.
 
----
+***
 
 ## Modify it
 
@@ -70,7 +70,7 @@ Try these changes:
 2. Replace one stripe with `WHITE_WOOL` to create a cloud edge.
 3. Build a second rainbow a few blocks behind the first one.
 
----
+***
 
 ## Collaborative option: shared world
 
@@ -84,20 +84,20 @@ Students can complete this challenge together in one Minecraft Education world.
 
 If joining does not work, check that school accounts are signed in, multiplayer is enabled by admin settings, and the network/firewall allows Minecraft Education multiplayer.
 
----
+***
 
 ## Challenge
 
 Turn the arch into a full scene by adding:
 
-- a cloud at one end
-- a second smaller arch behind it
-- a gold block treasure marker underneath
+* a cloud at one end
+* a second smaller arch behind it
+* a gold block treasure marker underneath
 
----
+***
 
 ## Source mission remake
 
 This lesson remakes the website's rainbow script while removing the old `mcpi` connection code and metadata-based wool values.
 
----
+***

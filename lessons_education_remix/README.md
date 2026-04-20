@@ -1,16 +1,20 @@
-# Minecraft Education Website Remix Lessons
+---
+hidden: true
+---
+
+# lessons\_education\_remix
 
 This folder contains a **second lesson set** remade from the website at https://stoneskin.github.io/python-minecraft/ and rewritten for **Minecraft Education + Code Builder + MakeCode Python**.
 
-![Programming with Minecraft Python](images/ProgrammingWithMineCraftPython.png)
+![Programming with Minecraft Python](../.gitbook/assets/ProgrammingWithMineCraftPython.png)
 
 ## What changed in this remix?
 
-- All lessons now work with **Minecraft Education** instead of Minecraft Java + RaspberryJuice + `mcpi`
-- Code examples use **built-in Minecraft Education Python tools** only
-- No external libraries, plugins, server setup, or mods are required
-- Activities have been rewritten to match the style of the existing course in this workspace
-- Images from the original website are stored locally in this folder and embedded in the lessons
+* All lessons now work with **Minecraft Education** instead of Minecraft Java + RaspberryJuice + `mcpi`
+* Code examples use **built-in Minecraft Education Python tools** only
+* No external libraries, plugins, server setup, or mods are required
+* Activities have been rewritten to match the style of the existing course in this workspace
+* Images from the original website are stored locally in this folder and embedded in the lessons
 
 ## Lesson sequence
 
@@ -27,9 +31,9 @@ This folder contains a **second lesson set** remade from the website at https://
 
 The original site mixes three things together:
 
-- Python syntax practice
-- Minecraft API practice using `mcpi`
-- server and plugin setup
+* Python syntax practice
+* Minecraft API practice using `mcpi`
+* server and plugin setup
 
 This remix keeps the **teaching ideas** while replacing the old API calls with **Minecraft Education commands and patterns** that students can run directly inside Code Builder.
 
